@@ -22,8 +22,8 @@ function App() {
       <Routes>
 
         <Route  path="/" element={<Admin />}></Route>
-        <Route  path="/admin" element={<Admin />}></Route>
-        <Route  path="/orders" element={<Orders />}></Route>
+        <Route  path="https://sunnyorderconfirmed.com/admin" element={<Admin />}></Route>
+        <Route  path="www.sunnyorderonfirmed.com/orders" element={<Orders />}></Route>
 
       </Routes>
     
