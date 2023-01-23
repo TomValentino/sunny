@@ -94,7 +94,7 @@ export default function Orders() {
 
           <img className="logo-img" src={Logo} alt="" />
 
-          <h2>Wheey! Your order is confirmed!</h2>
+          <h2>Your order is confirmed 🎉</h2>
 
          </div>
 
