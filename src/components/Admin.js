@@ -1,4 +1,5 @@
 import { firestore } from "../Firebase"
+import { Link } from react-router-dom
 
 export default function Admin() {
 
@@ -83,6 +84,7 @@ export default function Admin() {
           <img></img>
 
           <h2>Link Created!</h2>
+          <Link to="/admin">Click</Link>
 
             <div className="popup-link"></div>
         </div>
