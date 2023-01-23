@@ -244,3 +244,21 @@ h2 {
 .confirm-text {
   text-align: center;
 }
+
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.error-headline {
+  margin: 20px 0 20px 0;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -71,7 +71,41 @@ export default function Orders() {
 
 
       } else {
-          // document.querySelector('.stage').innerHTML = "Add Some Notes, Bitch!"
+          var stage = document.querySelector('.stage')
+          stage.innerHTML = ""
+          document.querySelector('.coupon-area-wrap').innerHTML = ""
+
+          var div = document.createElement('div')
+          div.className='error-container'
+          stage.appendChild(div)
+
+
+          var Headline = document.createElement('h2')
+          Headline.innerHTML = "Woops!"
+          Headline.className = "error-headline"
+          div.appendChild(Headline)
+          
+          var Text = document.createElement('p')
+          Text.innerHTML = "It looks like we haven't found any orders with that ID. Please check the order number again, and if you still have problems, please don't hesitate to get in touch, thank you!"
+          Text.className = 'confirm-text'
+          div.appendChild(Text)
+
+
+          var Btn = document.createElement('a')
+          Btn.innerHTML = 'Try a differnt order number'
+          Btn.className = "search-button"
+          Btn.href = '/'
+          stage.appendChild(Btn)
+
+
+
+
+
+
+
+
+
+
       }
     }) 
     .finally(() => {
@@ -115,6 +149,7 @@ export default function Orders() {
 
     </div>
 
+    <div className="coupon-area-wrap">
 
     <div className="coupon-area">
 
@@ -122,7 +157,8 @@ export default function Orders() {
       <p>Just use the code: SUNNY10 on your next order...</p>
 
 
-    </div>
+      </div>
+      </div>
 
 
     </>

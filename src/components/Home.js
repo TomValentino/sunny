@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../images/logo.png'
 
 export default function Home() {
 
@@ -15,6 +16,10 @@ export default function Home() {
     <div className="main-staging-area">
 
     <div className="stage">
+
+    <div className="align-center">
+    <img className="logo-img" src={Logo} alt="" />
+    </div>
 
 
       <h3 className="confirm-text">Please enter your order number to confirm your order...</h3>
