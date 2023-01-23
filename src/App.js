@@ -21,9 +21,9 @@ function App() {
 
       <Routes>
 
-        <Route exact path="/" element={<Admin />}></Route>
-        <Route exact path="/admin" element={<Admin />}></Route>
-        <Route exact path="/orders" element={<Orders />}></Route>
+        <Route  path="/" element={<Admin />}></Route>
+        <Route  path="/admin" element={<Admin />}></Route>
+        <Route  path="/orders" element={<Orders />}></Route>
 
       </Routes>
     
