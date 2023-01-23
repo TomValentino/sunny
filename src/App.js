@@ -21,8 +21,8 @@ function App() {
 
       <Routes>
 
-        <Route path="https://heartfelt-heliotrope-c385bc.netlify.app/admin" element={<Admin />}></Route>
-        <Route path="https://heartfelt-heliotrope-c385bc.netlify.app/orders" element={<Orders />}></Route>
+        <Route path="/admin" element={<Admin />}></Route>
+        <Route path="/orders" element={<Orders />}></Route>
 
       </Routes>
     
