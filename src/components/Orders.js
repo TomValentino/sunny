@@ -1,6 +1,6 @@
 import React from 'react'
 import { firestore } from "../Firebase"
-
+import Logo from "../images/logo.png"
 export default function Orders() {
 
 
@@ -88,7 +88,15 @@ export default function Orders() {
 
       <div className="stage">
 
-        <h2>Wheey! Your order is confirmed!</h2>
+        <div className="stage-inner-container">
+          
+       
+
+          <img className="logo-img" src={Logo} alt="" />
+
+          <h2>Wheey! Your order is confirmed!</h2>
+
+         </div>
 
         <div className="stage-inner"></div>
 
@@ -101,24 +109,21 @@ export default function Orders() {
 
         </div> */}
 
-
-
-
-
-
-       
-
-
-
-
-
-
-
       
       </div>
 
 
     </div>
+
+
+    <div className="coupon-area">
+
+      <h3 className="coupon-title">Congrats! You got a 10% discount</h3>
+      <p>Just use the code: SUNNY10 on your next order...</p>
+
+
+    </div>
+
 
     </>
   )

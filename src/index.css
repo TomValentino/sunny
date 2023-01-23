@@ -16,6 +16,15 @@ a:-webkit-any-link {
 
 }
 
+p {
+  margin: 0;
+
+}
+
+h3 {
+  margin: 0;
+}
+
 button {
   font-family: Montserrat;
 }
@@ -186,3 +195,32 @@ h2 {
   padding: 20px 0 20px 0;
 }
 
+
+.coupon-area {
+  width: 570px;
+  border-radius: 8px;
+  border: 2px dashed pink;
+  min-height: 80px;
+  margin: 50px auto 0 auto;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.coupon-title {
+  margin: 0 0 10px 0;
+}
+
+.stage-inner-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-img {
+  width: 150px;
+  margin: 0 0 25px 0;
+}
