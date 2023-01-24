@@ -30,7 +30,7 @@ export default function Orders() {
       // Set the innerHTML of the new script tag to the tracking script
       newScript.innerHTML = trackingScript
       // Append the new script tag to the body
-      document.body.appendChild(newScript)
+      document.head.appendChild(newScript)
 
 
 
