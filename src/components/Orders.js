@@ -20,18 +20,24 @@ export default function Orders() {
 
         // Clear the div out
         document.querySelector('.stage-inner').innerHTML = ''
+        // Clear the script out
+        // document.querySelector('.newScript').innerHTML = ''
 
 
+      setTimeout(() => {
 
-      // Get the tracking script
-      var trackingScript = doc.data().TrackingScript
-      // Create a new script tag
-      var newScript = document.createElement('script')
-      // Set the innerHTML of the new script tag to the tracking script
-      newScript.innerHTML = trackingScript
-      // Append the new script tag to the body
-      document.head.appendChild(newScript)
+             // // Create a new script tag
+      var newScript = document.querySelector('.newScript')
+      newScript.innerHTML = doc.data().TrackingScript
+      // // Set the innerHTML of the new script tag to the tracking script
+      // newScript.innerHTML = doc.data().TrackingScript
+      // // // Append the new script tag to the body
+      // document.body.appendChild(newScript)
+  
 
+
+      },0)
+ 
 
 
 
