@@ -152,6 +152,7 @@ h2 {
 .stage-inner {
   margin: 30px 0 0 0;
   padding: 20px 0 0 0;
+  font-size: 13px;
 }
 
 
@@ -213,10 +214,16 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .coupon-title {
   margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.title-desc {
+  font-size: 13px;
 }
 
 .stage-inner-container {
@@ -262,3 +269,30 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
+
+@media only screen and (max-width: 780px) {
+  .coupon-area {
+    width: 80%;
+  }
+
+  .stage {
+    padding: 50px 20px 50px 20px;
+  }
+
+
+  .logo-img {
+    width: 100px;
+  }
+
+
+  .stage-inner {
+    margin: 0;
+  }
+}
+
+
+.confirm-headline {
+  font-size: 17px;
+}
+

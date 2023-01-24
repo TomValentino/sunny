@@ -134,7 +134,7 @@ export default function Orders() {
 
           <img className="logo-img" src={Logo} alt="" />
 
-          <h2>Your order is confirmed 🎉</h2>
+          <h2 className="confirm-headline">Your order is confirmed 🎉</h2>
 
          </div>
 
@@ -160,7 +160,7 @@ export default function Orders() {
     <div className="coupon-area">
 
       <h3 className="coupon-title">Congrats! You got a 10% discount</h3>
-      <p>Just use the code: SUNNY10 on your next order...</p>
+      <p className="coupon-desc">Just use the code: SUNNY10 on your next order...</p>
 
 
       </div>
