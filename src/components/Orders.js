@@ -120,6 +120,11 @@ export default function Orders() {
     })
 
 
+
+
+        
+
+
     
   return (
     <>
@@ -159,7 +164,7 @@ export default function Orders() {
 
     <div className="coupon-area">
 
-      <h3 className="coupon-title">Congrats! You got a 10% discount</h3>
+      <h3 className="coupon-title">Congrats! Here's a 10% discount</h3>
       <p className="coupon-desc">Just use the code: SUNNY10 on your next order...</p>
 
 
