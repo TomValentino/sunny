@@ -27,7 +27,7 @@ export default function Orders() {
       setTimeout(() => {
 
              // // Create a new script tag
-      var newScript = document.querySelector('.newScript')
+      var newScript = document.querySelector('.new-script')
       newScript.innerHTML = doc.data().TrackingScript
       // // Set the innerHTML of the new script tag to the tracking script
       // newScript.innerHTML = doc.data().TrackingScript
