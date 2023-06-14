@@ -22,7 +22,7 @@ export default function Home() {
     </div>
 
 
-      <h3 className="confirm-text">Please enter your order number to confirm your order...</h3>
+      <h3 className="confirm-text">Please ener your order number to confirm your order...</h3>
 
 
       <div className="search-container">
