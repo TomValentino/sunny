@@ -36,27 +36,14 @@ export default function Admin() {
 
         var tomOrderID = document.getElementById('order-id').value
 
-            // var areaToAppendTo = document.querySelector('popup-real')
-
-            // Create a new href with url to the order page
-            var newLink = document.createElement('a')
-            newLink.target = '_blank'
-            newLink.href = 'https://mysunnyorder.com/orders?id=' + tomOrderID
-            newLink.innerHTML = 'https://mysunnyorder.com/orders?id=' + tomOrderID
-            
-            document.getElementsByClassName('popup-link')[0].appendChild(newLink)
+        // Create a new href with url to the order page
+        var newLink = document.createElement('a')
+        newLink.target = '_blank'
+        newLink.href = 'https://mysunnyorder.com/orders?id=' + tomOrderID
+        newLink.innerHTML = 'https://mysunnyorder.com/orders?id=' + tomOrderID
+        
+        document.getElementsByClassName('popup-link')[0].appendChild(newLink)
           
-  
-        // BELOW -- NEED TO THEN ADD THIS JSON TO FIREBASE
-        // SET WITH THE ORDER ID AS THE KEY
-  
-        // fetch('http://localhost:3001/create', {
-        //   method: 'POST',
-        //   headers: {
-        //     'Content-Type': 'application/json'
-        //   },
-        //   body: JSON.stringify(body)
-        // })
       }
 
 

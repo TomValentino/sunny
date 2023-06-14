@@ -8,12 +8,12 @@ import "firebase/compat/firestore"
 
 const app = firebase.initializeApp({
 
-    apiKey: "AIzaSyBjJ-t_U6ghISi6dTU8ZKF274pBDZADGZE",
-    authDomain: "test-bb5a1.firebaseapp.com",
-    projectId: "test-bb5a1",
-    storageBucket: "test-bb5a1.appspot.com",
-    messagingSenderId: "1090832818342",
-    appId: "1:1090832818342:web:c03b1f099b753e3c505467"
+apiKey: "AIzaSyBjJ-t_U6ghISi6dTU8ZKF274pBDZADGZE",
+  authDomain: "test-bb5a1.firebaseapp.com",
+  projectId: "test-bb5a1",
+  storageBucket: "test-bb5a1.appspot.com",
+  messagingSenderId: "1090832818342",
+  appId: "1:1090832818342:web:c03b1f099b753e3c505467"
 
 
 })
