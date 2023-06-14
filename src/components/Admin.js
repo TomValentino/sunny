@@ -41,8 +41,8 @@ export default function Admin() {
             // Create a new href with url to the order page
             var newLink = document.createElement('a')
             newLink.target = '_blank'
-            newLink.href = 'https://mysunnyorder.com/orders?id=' + tomOrderID
-            newLink.innerHTML = 'https://mysunnyorder.com/orders?id=' + tomOrderID
+            newLink.href = '/orders?id=' + tomOrderID
+            newLink.innerHTML = '/orders?id=' + tomOrderID
             
             document.getElementsByClassName('popup-link')[0].appendChild(newLink)
           
